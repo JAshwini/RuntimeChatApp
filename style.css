@@ -1,8 +1,45 @@
 html, body {
     height: 100%;
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+body {
+	background-image: url("bck.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.main {
+	width: 500px;
+	margin: auto;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.logo {
+	font-size: 50px;
+	color: white;
+	font-weight: lighter;
+	margin-bottom: 0px;
+}
+
+p{
+	color: white;
+}
+
+.button {
+	background-color: #4d90fe;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #357ae8;
 }
