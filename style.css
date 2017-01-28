@@ -9,7 +9,7 @@ html, body {
 }
 
 .home-page {
-	background-image: url("bck.jpg");
+	background-image: url("bck-min.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -42,4 +42,95 @@ p{
 
 .button:hover {
 	background-color: #357ae8;
+}
+
+.member-area {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 30%;
+	background-color: #7d7a7a;
+	color: white;
+}
+.message-area {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 30%;
+	background-color: lightblue;
+	width: 70%;
+}
+
+.user-info {
+	color: black;
+	background-color: white;
+	margin: 1%;
+	padding: 15px 10px;
+	border-radius: 0 0 7px 7px;
+}
+.logout {
+	float: right;
+	color: navy;
+}
+
+.member {
+	padding: 10px;
+	border-bottom: solid 1px #635f5f;
+	cursor: pointer;
+}
+
+.member:hover {
+	padding: 10px;
+	background-color: #ececec;
+	color: navy;
+	border-bottom: solid 1px black;
+	cursor: pointer;
+}
+
+.current-member {
+	padding: 17px;
+    background-color: #fff;
+    width: 100%;
+}
+.member.active {
+	font-weight: bold;
+    background-color: #b1adad;
+    border-bottom-color: #a7a3a3;
+}
+.other-member .messages{
+	background-color: #307b94;
+	color: white;
+	margin: 1%;
+	padding: 1%;
+}
+
+.by-user .messages{
+	background-color: white;
+	color: #307b94;
+	margin: 1%;
+	padding: 1%;
+}
+
+.chat-form {
+	position: fixed;
+	left: 30%;
+	bottom: 0;
+	width: 70%;
+	background-color: white;
+}
+.chat-message{
+	padding: 10px;
+	border: solid 1px lightgray;
+	border-radius: 6px;
+	display: block;
+	width: 100%;
+}
+.other-member {
+	margin: 3% 0%;
+}
+
+.message-panel{
+	overflow: auto;
+	height: 86%;
 }
