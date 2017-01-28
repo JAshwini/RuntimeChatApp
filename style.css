@@ -8,7 +8,7 @@ html, body {
     box-sizing: inherit;
 }
 
-body {
+.home-page {
 	background-image: url("bck.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
