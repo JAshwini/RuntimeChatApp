@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     box-sizing: border-box;
     font-family: "Roboto";
+    cursor: default;
 }
 
 *, *:before, *:after {
@@ -72,6 +73,7 @@ p{
 .logout {
 	float: right;
 	color: navy;
+	cursor: pointer;
 }
 
 .member {
@@ -133,4 +135,5 @@ p{
 .message-panel{
 	overflow: auto;
 	height: 86%;
+	padding-top: 1%;
 }
